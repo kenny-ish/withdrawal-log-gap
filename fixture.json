@@ -1,0 +1,91 @@
+{
+  "source": "https://mainnet.optimism.io",
+  "chain_id": "0xa",
+  "topic": "0x02a52367d10742d8032712c1bb8e0144ff1ec5ffda1ed7d70bb05a2744955054",
+  "keccak_vectors": {
+    "0": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+    "c0": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+  },
+  "cases": [
+    {
+      "name": "old",
+      "start": 130000880,
+      "end": 130000882,
+      "blocks": {
+        "130000879": {
+          "number": "0x7bfa7ef",
+          "hash": "0x123219383a52b78e479c055feb95aa83ac9afa11dd577d4b884e6d9e51fd5162",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "130000882": {
+          "number": "0x7bfa7f2",
+          "hash": "0x5cc3e18571221213a5a4dd5861b68cbe82415a1aeaa15faf5e4180ef704e05e2",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "130000881": {
+          "number": "0x7bfa7f1",
+          "hash": "0xe4825b62e6c35d032a78c8032b9cf298302e0caa4ab8c4db98625e3a6e4b388b",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        }
+      },
+      "before": "0x0001000000000000000000000000000000000000000000000000000000005a55",
+      "after": "0x0001000000000000000000000000000000000000000000000000000000005a56",
+      "event": {
+        "block": 130000881,
+        "block_hash": "0xe4825b62e6c35d032a78c8032b9cf298302e0caa4ab8c4db98625e3a6e4b388b",
+        "transaction_hash": "0x0f99efaceaa12f70a20b19986061943752c188f8659f79cec6be9661bf5c3e3d",
+        "transaction_index": 15,
+        "log_index": 33,
+        "nonce": "0x0001000000000000000000000000000000000000000000000000000000005a55",
+        "sender": "0x4200000000000000000000000000000000000007",
+        "target": "0x25ace71c97b33cc4729cf772ae268934f7ab5fa1",
+        "value": 0,
+        "gas_limit": 492334,
+        "live_emitted_hash": "0x45daa96757515019a7c23721d94f9f4312cc13503a3e598d63bd3791fc9b761a",
+        "live_payload_bytes": 516,
+        "test_payload": "0x",
+        "test_emitted_hash": "0x957b4e4412cabe650afeffded8ba869cb100ea93ea875db61b8dffe849ccbbc1"
+      }
+    },
+    {
+      "name": "recent",
+      "start": 158021868,
+      "end": 158021872,
+      "blocks": {
+        "158021867": {
+          "number": "0x96b38eb",
+          "hash": "0x1cd723f818f5246cea58b88162a9bc0ef7a6bdf11cef90f245d2d5c9297a8e92",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "158021872": {
+          "number": "0x96b38f0",
+          "hash": "0x86c3d8f1dc828aba19056b8362cdf3211cf2a7d9c4d9b38ba208d2980c5a99a9",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        },
+        "158021870": {
+          "number": "0x96b38ee",
+          "hash": "0xa9d981a0c8efe18ccea33173b04d51337e38bcbab1efd0407b36c6a32bdd2c25",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        }
+      },
+      "before": "0x000100000000000000000000000000000000000000000000000000000000889e",
+      "after": "0x000100000000000000000000000000000000000000000000000000000000889f",
+      "event": {
+        "block": 158021870,
+        "block_hash": "0xa9d981a0c8efe18ccea33173b04d51337e38bcbab1efd0407b36c6a32bdd2c25",
+        "transaction_hash": "0x4070a4c8d482990524cd1c8dd8a20e2ac66c75906471c6e1dd663bd426ef4794",
+        "transaction_index": 14,
+        "log_index": 177,
+        "nonce": "0x000100000000000000000000000000000000000000000000000000000000889e",
+        "sender": "0x4200000000000000000000000000000000000007",
+        "target": "0x25ace71c97b33cc4729cf772ae268934f7ab5fa1",
+        "value": 0,
+        "gas_limit": 516982,
+        "live_emitted_hash": "0xc695b20e43b61748b35a723b6a86f15856a5c6a71b50d0ba3dea511dd09c1a90",
+        "live_payload_bytes": 484,
+        "test_payload": "0x",
+        "test_emitted_hash": "0x7f221c506252b1354abcd8a6c487f2aa842fb17c00a3d4f57b5faaa59c68d2bb"
+      }
+    }
+  ]
+}
